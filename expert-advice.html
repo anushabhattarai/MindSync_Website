@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Advice</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #74ebd5, #acb6e5); 
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #e74c3c; 
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 15px 0;
+            display: flex;
+            align-items: center; 
+            padding: 10px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        ul li:hover {
+            background-color: #f1c40f; 
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db; 
+            display: flex; 
+            align-items: center; 
+            flex-grow: 1;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #2980b9; 
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #e74c3c; 
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #c0392b; 
+        }
+
+        .video-thumbnail, .article-thumbnail {
+            width: 80px; 
+            height: auto; 
+            margin-right: 15px; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Expert Advice</h1>
+    
+    <p>Get insights and advice from mental health professionals. Read articles and watch videos from experts in the field.</p>
+    
+    <h2>Expert Articles</h2>
+    <ul>
+        <li>
+            <a href="https://www.beyondblue.org.au/mental-health/anxiety/treatments-for-anxiety/anxiety-management-strategies" target="_blank">
+                <img src="image/anxiety.png" alt="Managing Anxiety" class="article-thumbnail">
+                Tips for Managing Anxiety
+            </a>
+        </li>
+        <li>
+            <a href="https://www.apa.org/topics/resilience/building-your-resilience" target="_blank">
+                <img src="image/res.png" alt="Building Resilience" class="article-thumbnail">
+                Building Resilience
+            </a>
+        </li>
+        <li>
+            <a href="https://jedfoundation.org/resource/mental-health-warning-signs-and-when-to-ask-for-help/" target="_blank">
+                <img src="image/seek help.png" alt="Seeking Help" class="article-thumbnail">
+                When to Seek Help
+            </a>
+        </li>
+    </ul>
+    
+    <h2>Expert Videos</h2>
+    <ul>
+        <li>
+            <a href="https://www.youtube.com/watch?v=DxIDKZHW3-E" target="_blank">
+                <img src="image/all.png" alt="Unlocking Mental Health" class="video-thumbnail">
+                Unlocking Mental Health: Strategies for Everyday Well-Being
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=tY8NY6CMDFA" target="_blank">
+                <img src="image/gap.png" alt="Mindfulness Matters" class="video-thumbnail">
+                Mindfulness Matters: Techniques to Enhance Your Mental Wellness
+            </a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=rkE29fpmsSI" target="_blank">
+                <img src="image/kids.png" alt="Navigating Anxiety" class="video-thumbnail">
+                Navigating Anxiety: Tools and Tips from Mental Health Experts
+            </a>
+        </li>
+    </ul>
+    
+    <a href="index.html#features" class="back-button">Back to Features</a>
+</div>
+
+</body>
+</html>

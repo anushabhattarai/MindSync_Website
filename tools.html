@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools and Exercises</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #74ebd5, #acb6e5); 
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50; 
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #e74c3c; 
+            margin: 20px 0 10px;
+        }
+        p {
+            text-align: center;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .item {
+            background: #eaeaea;
+            margin: 8px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .video-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .video-box iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 10px;
+        }
+        .exercise-img {
+            width: 100%; 
+            max-height: 200px; 
+            border-radius: 4px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 20px;
+            background-color: #e74c3c;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            text-decoration: none; 
+        }
+        .back-button:hover {
+            background-color: #c0392b; 
+        }
+        .watch-button {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color:  #e74c3c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .watch-button:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Tools and Exercises</h1>
+    
+    <p>Explore interactive tools and exercises to enhance your mental health. Here are some resources:</p>
+    
+    <h2>Exercises and Videos</h2>
+    <ul>
+        <li class="item">
+            <h3><a href="https://youtu.be/7Ep5mKuRmAA?feature=shared" target="_blank">Breathing Exercises</a></h3>
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/7Ep5mKuRmAA" title="Breathing Exercises" frameborder="0" allowfullscreen></iframe>
+                <a href="https://youtu.be/7Ep5mKuRmAA?feature=shared" target="_blank" class="watch-button">Watch</a>
+            </div>
+        </li>
+        <li class="item">
+            <h3><a href="https://youtu.be/_1h-zizAGsc?feature=shared" target="_blank">Muscle Relaxation</a></h3>
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/_1h-zizAGsc" title="Muscle Relaxation" frameborder="0" allowfullscreen></iframe>
+                <a href="https://youtu.be/_1h-zizAGsc?feature=shared" target="_blank" class="watch-button">Watch</a>
+            </div>
+        </li>
+        <li class="item">
+            <h3><a href="https://youtu.be/i6TzP2COtow?feature=shared" target="_blank">Stretching</a></h3>
+            <div class="video-box">
+                <iframe src="https://www.youtube.com/embed/i6TzP2COtow" title="Stretching" frameborder="0" allowfullscreen></iframe>
+                <a href="https://youtu.be/i6TzP2COtow?feature=shared" target="_blank" class="watch-button">Watch</a>
+            </div>
+        </li>
+    </ul>
+
+    <h2>Interactive Tools</h2>
+    <ul>
+        <li class="item">
+            <h3><a href="#">Journaling Prompts</a></h3>
+            <img class="exercise-img" src="image/journal.png" alt="Journaling Prompts">
+            <a href="https://psychcentral.com/blog/ready-set-journal-64-journaling-prompts-for-self-discovery" target="_blank" class="watch-button">Explore Prompts</a>
+        </li>
+        <li class="item">
+            <h3><a href="#">Mood Tracking Tools</a></h3>
+            <img class="exercise-img" src="image/mood tracker.png" alt="Mood Tracking Tools">
+            <a href="https://www.verywellmind.com/best-mood-tracker-apps-5212922" target="_blank" class="watch-button">Explore Apps</a>
+        </li>
+    </ul>
+
+    <a href="index.html#features" class="back-button">Back to Features</a>
+</div>
+
+</body>
+</html>
